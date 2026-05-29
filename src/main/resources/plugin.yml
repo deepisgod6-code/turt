@@ -1,0 +1,14 @@
+name: TurtleMaster-Cooldown
+version: '1.0.0'
+main: com.deepisgod6.turtlemaster.TurtleMasterCooldownPlugin
+description: Adds configurable cooldowns to Turtle Master potion drinking
+authors:
+  - deepisgod6-code
+api-version: '1.21'
+
+commands:
+  tmcooldown:
+    description: Manage Turtle Master cooldown settings
+    usage: /tmcooldown <reload|status|set <player> <seconds>|clear <player>>
+    aliases:
+      - tmc

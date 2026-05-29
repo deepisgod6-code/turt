@@ -1,0 +1,20 @@
+# Turtle Master Potion Cooldown Configuration
+# All times are in seconds
+
+# Enable or disable the Turtle Master potion cooldown feature
+enabled: true
+
+# Default cooldown duration in seconds when a player drinks a Turtle Master potion
+cooldown-duration: 60
+
+# Send cooldown notifications to players
+send-notifications: true
+
+# Cooldown warning message
+messages:
+  cooldown-active: '&cYou must wait &e{remaining}&c seconds before drinking another Turtle Master potion!'
+  cooldown-expired: '&aYou can now drink another Turtle Master potion!'
+  cooldown-set: '&aSet cooldown for {player} to {seconds} seconds'
+  cooldown-cleared: '&aCleared cooldown for {player}'
+  not-found: '&cPlayer {player} not found'
+  prefix: '&b[TurtleMaster]&r '
